@@ -10,10 +10,10 @@ app.use( bodyParser.json() );
 
 
 
-app.post('/api/task', ctrl.create);
+app.post('/api/weapons', ctrl.create);
 app.get('/api/weapons', ctrl.read);
-app.put('/api/task/:id', ctrl.update);
-app.delete('/api/task/:id', ctrl.delete);
+app.put('/api/weapons', ctrl.update);
+app.delete('/api/weapons/:id', ctrl.delete);
 
 
 

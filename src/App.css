@@ -1,20 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC|UnifrakturCook:700');
 
-.contender1 {
-    background: lightcoral;
-    height: 50vh;
-    width: 250px;
+body {
+    margin: 10vh auto;
+    padding: 0 20vw;
+    background: rgb(31, 31, 31)
 }
 
-.contender2 {
-    background: lightblue;
-    height: 50vh;
-    width: 250px;
+div input {
+    margin-top: 25px;
+    text-align: center;
 }
 
-.selectors {
-    background: white;
-    height: 50vh;
-    width: 250px;
+.border {
+    border: 1px rgb(31, 31, 31);
+    border-bottom-style: solid;
+    min-width: 15vw;
+    max-width: 15vw;
+    margin: 25px auto;
 }
 
+input {
+    background: rgb(54, 54, 54);
+    border: 1px solid rgb(54, 54, 54);
+    border-bottom-color:rgb(172, 7, 7) 
+}
+
+input, select, textarea {
+    color: rgb(31, 31, 31);
+    font-size: 15px;
+}
+
+button {
+    border: 3px solid rgb(31, 31, 31);
+    margin: 2px;
+    background: rgb(54, 54, 54);
+    color: rgb(219, 218, 218);
+    border-radius: 15px;
+    min-width: 25px;
+    font-family: 'Spectral SC', serif;
+}
+
+h1 {
+    color: rgb(219, 218, 218);
+    font-size: 20px;
+}
+
+#player {
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(219, 218, 218);
+    font-size: 20px;
+}
+
+h3 {
+    color: rgb(180, 8, 8); 
+    margin-top: 20px;
+}
+
+h4 {
+    color: rgb(219, 218, 218);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: rgb(219, 218, 218);
+    font-size: 20px;
+}
+
+h5 {
+    color: rgb(241, 8, 8);
+    font-size: 35px;
+    margin-top: -10px;
+    font-family: 'UnifrakturCook'
+}
+
+h6 {
+    color: rgb(219, 218, 218);
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+p {
+    color: rgb(219, 218, 218)
+}
+
+/* ===================== */
+.head {
+    background: black;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    margin: 25px auto;
+    padding: 25px;
+    box-shadow: 0 0 75px black
+}
+
+/* =============== */
+.playerState {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================== */
+.apiGet {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 0;
+    max-width: 600px;
+    min-width: 600px;
+    box-shadow: 1px 1px 5px rgb(172, 7, 7);
+    background:  rgb(54, 54, 54)
+}
+
+.choosePlayer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ================== */
+.localServer {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 0;
+     
+}
+
+.serverDiv {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weaponButton {
+    min-width: 120px;
+    font-family: 'Spectral SC', serif;
+}
+
+#chooseButton {
+    margin: 25px auto;
+    border: 3px solid rgb(219, 218, 218);
+    font-family: 'Spectral SC', serif;
+}
+
+#fightButton {
+    font-size: 20px;
+    background: rgb(172, 7, 7);
+    border: 3px solid rgb(219, 218, 218)
+}
+
+/* ========================= */
+.contender {
+    margin: 24px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px;
+}
+
+.contendOver {
+    display: flex;
+    justify-content: space-around;
+    min-width: 25vw;
+    min-height: 15vh;
+}
+
+.contendUnder {
+    min-width: 250px;
+    text-align: center;
+}
+
+.modal {
+    padding: 25px;
+    text-align: center;
+}
+
+.modalborder {
+    border: 2px rgb(255, 12, 12);
+    border-bottom-style: solid;
+    min-width: 20vw;
+    max-width: 20vw;
+    margin: 5px auto;
+}
+
+#para {
+    padding-top: 15px;
+}
+
+#fightButton {
+    margin-top: 50px;
+}
+
+#modalhead {
+    color: rgb(54, 54, 54)
+}
+
+#modalwinner {
+    color:rgb(54, 54, 54);
+    font-size: 50px;
+}
 

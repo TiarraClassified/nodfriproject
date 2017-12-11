@@ -7,26 +7,20 @@ import PlayerState from "./PlayerState"
 
 
 class App extends Component {
-  constructor() {
-    super()
-
-
-    this.state = {
-      firstPlace: '',
-      search: '',
-      button: 'Choose First Contender',
-      secondPlace: '',
-      playerNum: 1
-    }
-  }
-
 
   render() {
-  
+
 
     return (
+      
       <div>
-        <PlayerState />
+        <div className="head">
+          <h6>Metropolitan</h6> 
+            <h5>Deathmatch</h5>
+        </div>
+        <div>
+          <PlayerState />
+        </div>
       </div>
     );
   }

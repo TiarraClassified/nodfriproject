@@ -16,9 +16,6 @@ export default class PlayerState extends Component {
 
     }
 
-
-
-
     changeButton() {
         if (this.state.button === "Choose First Contender") {
             this.setState({ button: "Choose Second Contender" })
@@ -32,10 +29,10 @@ export default class PlayerState extends Component {
     render() {
 
         return (
-           <div>
-               <h1>Player State</h1>
+           <div className="playerState">
                 <ApiGet 
-                playerNum = {this.state.playerNum}/>
+                playerNum = {this.state.playerNum}
+                changeButton = {this.changeButton}/>
             </div>            
         )
     }
